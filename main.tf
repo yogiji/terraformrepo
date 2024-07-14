@@ -25,9 +25,9 @@ resource "azurerm_resource_group" "rg" {
 }
 
 resource "random_string" "uniquestring" {
-  length           = 20
-  special          = false
-  upper            = false
+  length  = 20
+  special = false
+  upper   = false
 }
 
 
